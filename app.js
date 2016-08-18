@@ -12,7 +12,7 @@ var bodyParser = require('body-parser');
 var routes = require('./routes/index');
 var users = require('./routes/users');
 var pachong = require('./routes/pachong');
-
+var yibu = require('./routes/yibu');
 var app = express();
 
 // view engine setup
@@ -30,7 +30,7 @@ app.use(express.static(path.join(__dirname, 'public')));
 
 app.use('/', routes);
 app.use('/users', users);
-app.use('/pachong', pachong);
+// app.use('/pachong', pachong);
 
 
 // catch 404 and forward to error handler
