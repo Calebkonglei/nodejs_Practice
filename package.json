@@ -13,8 +13,11 @@
     "debug": "~2.2.0",
     "ejs": "~2.3.3",
     "express": "~4.13.1",
+    "istanbul": "^0.4.4",
+    "mocha": "^3.0.2",
     "morgan": "~1.6.1",
     "serve-favicon": "~2.3.0",
+    "should": "^11.1.0",
     "superagent": "^2.2.0",
     "utility": "^1.8.0"
   }
